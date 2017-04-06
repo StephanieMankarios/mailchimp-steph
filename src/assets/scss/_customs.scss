@@ -1,0 +1,63 @@
+$primary-color: #00BFF3;
+$primary-color-hover: darken($primary-color,10%);
+$secondary-color: #333;
+
+
+
+
+
+
+
+body {
+    font-family: "libre-baskerville-regular";
+}
+
+
+table.button.secondary table td {
+  background: $primary-color;
+  &:hover {
+    background: $primary-color-hover;
+  }
+}
+
+
+.header .wrapper-inner {
+  background: white;
+}
+
+table.menu td.menu-item a, table.menu th.menu-item a {
+  color: #777;
+  &:hover {
+    color: $primary-color;
+  }
+}
+
+table.body img.logo {
+  height: 4rem;
+}
+
+h2.section-title {
+      font-family: $h2-font-family;
+}
+
+h2.section-title::after {
+    border-bottom: 6px solid $primary-color;
+    content: "";
+    display: block;
+    margin: 0 auto 40px;
+    padding-bottom: 10px;
+    width: 20%;
+  }
+
+  table.menu td.menu-item, table.menu th.menu-item {
+    padding: 23px 10px 10px 10px;
+  }
+
+ .nav a {
+   font-family: $nav-font-family;
+ }
+
+
+#logo {
+  height: 30%;
+}
