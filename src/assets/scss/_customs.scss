@@ -13,8 +13,11 @@ body {
     p {
     line-height: 2; 
     }
+    li {
+     line-height: 2;
+      margin-bottom: 10px;
+    }
 }
-
 
 table.button.secondary table td {
   background: $primary-color;
